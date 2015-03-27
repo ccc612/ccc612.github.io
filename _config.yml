@@ -1,8 +1,2 @@
-highlighter: pygments
-safe: true
-lsi: false
 timezone: Asia/Seoul
-
-source: ./_src/
-destination: ./_site/
 
