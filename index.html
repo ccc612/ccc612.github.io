@@ -10,3 +10,11 @@ title: Crazycat`s github page
     {% endfor %}
 </ul>
 </div>
+
+<div id="repolist">
+<h1>Github repositories</h1>
+<ul class="repos">
+    {% for repo in site.data.repos %}
+    <li><a href="{{ site.github.owner_url }}/{{ repo.name }}">{{ repo.name }}</a></li>
+    {% endfor %}
+</ul>
